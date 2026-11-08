@@ -1,0 +1,137 @@
+header{
+    display: flex;
+    padding: 30px 30px;
+    margin-bottom: 30px;
+    align-items: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 20px;
+    white-space: nowrap;
+}
+nav a{
+    margin: 0;
+}
+main{
+    padding: 5% 5%;
+}
+
+p,a{
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+body{
+    background-color:#F5E6D3;
+    color:#4A3528;
+
+    .sinopsis {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 50px;
+        padding: 50px 1opx;
+    }
+
+    .texto-sinopsis {
+        width: 50%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .texto-sinopsis h2 {
+        margin-top: 0;
+    }
+
+    .texto-sinopsis p {
+        line-height: 1.5;
+    }
+
+    .fotos-sinopsis {
+        width: 50%;
+        display: flex;
+        gap: 12px;
+        margin: 0;
+    }
+
+    .fotos-sinopsis img {
+        width: 48%;
+        height: 300px;
+        object-fit: cover;
+    }
+
+
+    .elenco{
+        padding: 40px 60 px;
+    }
+
+    .elenco h2 {
+        font-size: 25px;
+        letter-spacing: 6px;
+        margin-bottom: 25px;
+    }
+
+    .actores {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .actores article {
+        width: 180px;
+    }
+    .actores img {
+        width: 180px;
+        height: 210px;
+        object-fit: cover;
+    }
+
+    .actores h3 { 
+        front-size: 17px;
+        margin: 10px 0 4px;
+    }
+
+    .actores p {
+        front-size: 14px;
+        margin: 10;
+        text-align:start;
+    }
+
+    .parrafo-premios {
+        text-align: justify;
+    }
+    
+
+
+
+
+}
+footer{
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #a66d54;
+    color: azure;
+    text-align: left;
+
+
+    .icono-footer{
+        width: 50px;
+        height: 50px;
+        object-fit: contain;
+        margin: 0 8px;
+
+    }
+
+    .redes-footer {
+        text-align: right;
+    }
+    #FRASEfooter{
+        margin-right: 15%;
+    }
+}
