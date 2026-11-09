@@ -1,0 +1,38 @@
+body {
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.4)
+        ),
+        url("../imagenes/family\ pearson2.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+main {
+    color: white;
+    text-align: center;
+}
+
+main h1 {
+    color: white;
+}
+
+main p {
+    color: white;
+    font-size: 22px;
+}
+main {
+    position: relative;
+    top: -80px;
+}
+main a {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+main a:hover {
+    transform: scale(1.08);
+}

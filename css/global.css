@@ -1,3 +1,11 @@
+@font-face {
+    font-family: "Louis George Cafe";
+    src: url("../fuentes/Louis George Cafe.ttf") format("truetype");
+}
+h1, h2, h3 {
+    font-family: "Louis George Cafe", sans-serif;
+    text-shadow: 2px 2px 4px rgba(74, 53, 40, 0.25);
+}
 header{
     display: flex;
     padding: 30px 30px;
@@ -30,45 +38,10 @@ p,a{
 body{
     background-color:#F5E6D3;
     color:#4A3528;
-
-    .sinopsis {
-        display: flex;
-        align-items: flex-start;
-        justify-content: space-between;
-        gap: 50px;
-        padding: 50px 1opx;
-    }
-
-    .texto-sinopsis {
-        width: 50%;
-        margin: 0;
-        padding: 0;
-    }
-
-    .texto-sinopsis h2 {
-        margin-top: 0;
-    }
-
-    .texto-sinopsis p {
-        line-height: 1.5;
-    }
-
-    .fotos-sinopsis {
-        width: 50%;
-        display: flex;
-        gap: 12px;
-        margin: 0;
-    }
-
-    .fotos-sinopsis img {
-        width: 48%;
-        height: 300px;
-        object-fit: cover;
-    }
-
+}
 
     .elenco{
-        padding: 40px 60 px;
+        padding: 40px 60px;
     }
 
     .elenco h2 {
@@ -93,45 +66,48 @@ body{
     }
 
     .actores h3 { 
-        front-size: 17px;
+        font-size: 17px;
         margin: 10px 0 4px;
     }
 
     .actores p {
-        front-size: 14px;
-        margin: 10;
+        font-size: 14px;
+        margin: 10px;
         text-align:start;
     }
 
     .parrafo-premios {
         text-align: justify;
     }
-    
-
-
-
-
+    .menu a:focus {
+    background-color: yellow;
+    color: black;
+    border-radius: 5px;
+    }
+    .formulario-contacto {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 500px;
+    margin: 20px auto;
 }
-footer{
-    padding: 10px 20px;
-    margin-top: 10px;
+    .formulario-contacto input,
+    .formulario-contacto textarea {
+    padding: 10px;
+    border: 1px solid #a66d54;
+    border-radius: 5px;
+    font-family: "Roboto", sans-serif;
+}
+    .formulario-contacto button {
     background-color: #a66d54;
-    color: azure;
-    text-align: left;
-
-
-    .icono-footer{
-        width: 50px;
-        height: 50px;
-        object-fit: contain;
-        margin: 0 8px;
-
-    }
-
-    .redes-footer {
-        text-align: right;
-    }
-    #FRASEfooter{
-        margin-right: 15%;
-    }
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
+
+
+
+
+

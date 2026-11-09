@@ -1,0 +1,25 @@
+body {
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+        ),
+        url("../imagenes/Family Pearson.webp");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+main {
+    position: relative;
+    top: -80px;
+}
+main a {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+main a:hover {
+    transform: scale(1.08);
+}

@@ -1,0 +1,42 @@
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+    padding: 10px 20px;
+    min-height: 0px;
+    background-color: #a66d54;
+    color: azure;
+    text-align: left;
+     }
+
+
+    .icono-footer{
+        width: 50px;
+        height: 50px;
+        object-fit: contain;
+        margin: 0 8px;
+
+    }
+
+    .redes-footer {
+        text-align: right;
+    }
+    #fRASEfooter {
+    width: 150px;
+    height: auto;
+}
+
+.copyright {
+    margin-left: auto;
+    text-align: center;
+    font-size: 13px;
+}
+.iconos-redes {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 15px;
+
+}
+

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
+    <link rel="icon" type="image/png" href="imagenes/favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
@@ -10,14 +10,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>This is Us</title>
     <link rel="stylesheet" href="./css/global.css">
-
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/grid.css">
+    <link rel="stylesheet" href="./css/multimedia.css">
+    <link rel="stylesheet" href="./css/roll.css">
 </head>
 
 <body>
-    <Header>
+    <header>
 
-        <img src="imagenes/this is us logo.png" alt="logo serie" width="20%">
-        <nav>
+        <img class="entradagirando" witdth="1000px" src="imagenes/this is us logo.png" alt="logo serie" width="20%">
+        <nav class="menu">
 
             <a href="#inicio">Inicio</a>&nbsp &nbsp &nbsp
             <a href="#sinopsis">Sinopsis</a>&nbsp &nbsp &nbsp
@@ -41,6 +44,9 @@
                 conocidos como “The Big Three”. A través de saltos temporales entre el pasado, presente y futuro, la
                 serie aborda temas como el amor, la familia, la pérdida, la adopción, la identidad, las relaciones y el
                 paso del tiempo.</em></p>
+                
+                <iframe class="video-serie" width="560" height="315" src="https://www.youtube.com/embed/xLLQT3ooASI?si=SQS5EFD6_mS-KPo6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                
 
         <section class="sinopsis">
 
@@ -123,32 +129,67 @@
         <a href="#Temporada 6">Temporada 6</a>&nbsp &nbsp &nbsp
 
 
-
+        <section class="premios-grid">
         <h2 id="premios">Premios</h2>
-        <p class="parrafo-premios">
-            This Is Us recibió numerosos reconocimientos a lo largo de sus seis
-            temporadas. La serie obtuvo 39 nominaciones a los premios Emmy y ganó
-            cuatro estatuillas. Además, su elenco fue premiado en los Screen Actors
-            Guild Awards y Sterling K. Brown ganó el Globo de Oro como mejor actor
-            de una serie dramática por su interpretación de Randall Pearson.</p>
-        <p>La serie se destacó por su forma de contar la historia a través de saltos entre el pasado, presente y futuro.
-            Mandy Moore utilizó maquillaje y prótesis para interpretar a Rebecca en distintas edades, mientras que
-            Sterling K. Brown recibió importantes premios por su papel como Randall. Además, “The Big Three”, apodo de
-            Kevin, Kate y Randall, se convirtió en uno de los elementos más representativos de la serie.</p>
+      <p>This Is Us recibió numerosas nominaciones a los premios Emmy.</p>
+      <p>El elenco fue reconocido en los Screen Actors Guild Awards.</p>
+      <p>Sterling K. Brown ganó un Globo de Oro por su interpretación de Randall.</p>
+      <p>Mandy Moore recibió elogios por interpretar a Rebecca Pearson.</p>
+      <p>La serie fue reconocida por sus historias familiares y sus actuaciones.</p>
+        </section>
+<section id="sobre-proyecto">
+    <h2>Sobre el proyecto</h2> 
 
+    <p>
+        Este sitio web fue realizado para la materia
+        Programación Web I de Escuela Da Vinci.
+        Elegí This Is Us porque es una serie que destaca
+        la importancia de la familia, los vínculos y las
+        experiencias que nos acompañan a lo largo de la vida.
+    </p>
+
+    <p>
+        El objetivo de esta página es compartir información
+        sobre la historia, los personajes y las temporadas
+        de la familia Pearson.
+    </p>
+    <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1TCxRg6fL6ITe3le0oVtia?utm_source=generator&si=d7b40ba27d574d2a" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+</section>
+            <section id="contacto">
+    <h2>Contacto</h2>
+    <form class="formulario-contacto" action="confirmacion.html" method="get">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" required>
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo" required>
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="3" minlength="10" required></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+</section>
     </main>
 
 
 
-    <footer id="contacto">
+   <footer>
 
-        <section class="redes-footer">
-            <img id="fRASEfooter" src="imagenes/FRASE.jpg" alt="frase this is us" width="20%">
-            <img class="icono-footer" src="imagenes/logo fb.png" alt="logo facebook">
-            <img class="icono-footer" src="imagenes/logo instagram.png" alt="logo instagram">
-            <img class="icono-footer" src="imagenes/logo youtubr.png" alt="logo youtube">
-        </section>
-    </footer>
+    <section class="redes-footer">
+        <img id="fRASEfooter" src="imagenes/FRASE.jpg" alt="frase this is us">
+    </section>
+
+    <p class="copyright">
+        © 2026 · Proyecto académico sobre This Is Us · Escuela Da Vinci.
+    </p>
+
+    <nav class="iconos-redes">
+        <img class="icono-footer" src="imagenes/logo fb.png" alt="logo facebook">
+        <img class="icono-footer" src="imagenes/logo instagram.png" alt="logo instagram">
+        <img class="icono-footer" src="imagenes/logo youtubr.png" alt="logo youtube">
+    </nav>
+
+</footer>
 </body>
 
 </html
